@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Collins Hockey | Player Development & Video Analysis</title>
+  <title>Last Shift Hockey | Player Development & Video Analysis</title>
   <style>
     :root {
       color-scheme: light;
@@ -30,7 +30,7 @@
 
     header {
       background: linear-gradient(120deg, rgba(12, 29, 58, 0.95), rgba(12, 29, 58, 0.75)),
-        url("https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80") center/cover;
+        url("https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80") center/cover;
       color: var(--white);
       padding: 60px 20px 80px;
     }
@@ -181,6 +181,21 @@
       border-radius: 8px;
     }
 
+    .photo-grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      margin-top: 16px;
+    }
+
+    .photo-grid img {
+      width: 100%;
+      border-radius: 14px;
+      object-fit: cover;
+      height: 220px;
+      box-shadow: var(--shadow);
+    }
+
     .cta {
       background: var(--navy);
       color: var(--white);
@@ -229,7 +244,7 @@
   <header>
     <div class="container hero">
       <div>
-        <p class="small">Collins Hockey Player Development</p>
+        <p class="small">Last Shift Hockey Player Development</p>
         <h1>Elite video analysis + performance tracking for youth to prep &amp; junior players.</h1>
         <p>
           Built for families who want a clear plan. Mike Collins combines pro-level insight with
@@ -267,10 +282,11 @@
         </ul>
       </div>
       <div class="card details">
-        <h2 class="section-title">Why Collins Hockey</h2>
+        <h2 class="section-title">Why Last Shift Hockey</h2>
         <p>
           Mike Collins has played and captained at every level, from NCAA Hockey East to the German DEL.
-          His coaching approach blends pro-level tactics with player-first development.
+          His coaching approach blends pro-level tactics with player-first development for players throughout
+          Manchester-by-the-Sea and the North Shore.
         </p>
         <div class="bio-grid">
           <div class="bio-item"><strong>Position:</strong> LW</div>
@@ -397,6 +413,15 @@
   <section>
     <div class="container grid-2">
       <div class="card">
+        <h2 class="section-title">Mike Collins in Action</h2>
+        <p>Use the attached photos below to feature Mike’s playing career on the site.</p>
+        <div class="photo-grid">
+          <img src="IMG_2446.jpeg" alt="Mike Collins skating with the puck." />
+          <img src="IMG_2447.jpeg" alt="Mike Collins close-up in game action." />
+          <img src="IMG_2448.jpeg" alt="Mike Collins in Merrimack uniform." />
+        </div>
+      </div>
+      <div class="card">
         <h2 class="section-title">Development Process</h2>
         <ul>
           <li><strong>1. Discovery:</strong> Player interview, goals assessment, and video intake.</li>
@@ -410,7 +435,7 @@
         <h2>Let’s build your player’s next step.</h2>
         <p>Book a consult or share film to receive a custom performance plan.</p>
         <p><strong>Email:</strong> info@collinshockey.com</p>
-        <p><strong>Location:</strong> Greater Boston • Remote video review available</p>
+        <p><strong>Location:</strong> Manchester-by-the-Sea, MA • Serving the North Shore &amp; Greater Boston</p>
         <button type="button">Schedule a Consultation</button>
       </div>
     </div>
@@ -418,7 +443,7 @@
 
   <footer>
     <div class="container">
-      <p>© 2024 Collins Hockey. Player development for the next generation.</p>
+      <p>© 2024 Last Shift Hockey. Player development for the next generation.</p>
     </div>
   </footer>
 </body>
